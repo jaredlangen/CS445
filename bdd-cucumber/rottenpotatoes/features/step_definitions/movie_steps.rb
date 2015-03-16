@@ -63,7 +63,7 @@ When /I (un)?check all ratings$/ do |uncheck|
   end
 end
 
-Then /I should see all the movies/ do
+Then /I should see all of the movies/ do
   # Make sure that all the movies in the app are visible in the table
   #flunk "Unimplemented"
   within 'tbody' do
